@@ -1,0 +1,261 @@
+/*MATERLIZE CSS CUSTOM*/
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #cf1e4c;
+    -webkit-box-shadow: 0 1px 0 0 #cf1e4c;
+    box-shadow: 0 1px 0 0 #cf1e4c;
+    color: #cf1e4c;
+}
+
+.input-field .prefix.active{
+	color: #cf1e4c;	
+}
+
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+	color: #cf1e4c;	
+}
+
+ 
+/*MATERLIZE CSS CUSTOM
+
+ ::placeholder {
+        color: #9e9e9e;
+        opacity: 1; /* Firefox */
+      }
+
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: #9e9e9e;
+      }
+
+      ::-ms-input-placeholder { /* Microsoft Edge */
+       color: #9e9e9e;
+      }
+
+.btn:hover, .btn-large:hover, .btn-small:hover{
+	background-color: #cf1e4c;
+}
+
+.bg-color{
+	background-color: #cf1e4c;
+}
+.text-color{
+	color: #cf1e4c;
+}
+.header-bg{
+	background: #cf1e4c;
+	/*height: 120px;*/
+	text-align: center;
+	margin-bottom: 0px;
+}
+.logo{
+	margin: 10px 0px;
+	height: 60px;
+}
+.bg-black{
+	background-color: #0e1316;
+}
+
+.bg-search{
+	border-radius: 55px;
+    width: 182px;
+    margin-left: -50px;
+}
+.btn_search{
+	height: 37px;
+		line-height: 39px;
+	font-size: 13px;
+}
+
+.restaurant{
+	position: relative;
+	box-shadow:inset 0 0 10px #0e1316;
+}
+.restaurant_deals{
+	position: absolute;
+	top: 28px;
+	color: white;
+	right: 10px;
+	font-size: 25px;
+	height: 48px;
+	padding: 4px 0px;
+	width: 165px;
+	text-align: center;
+	z-index: 1000;
+	/*background: #cf1e4c;
+	mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.35,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.65,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*/
+    background-image: url('../resources/deals.png');
+}
+.input_search_button{
+	 color:#5d5f60 !important;
+	 border: 2px solid #5d5f60 !important;
+	 border-radius: 25px !important;
+	 padding-left: 41px !important;
+}
+.restaurnt_title{
+	position: absolute;
+	bottom: 14px;
+	color: white;
+	left: 26px;
+	font-size: 32px;
+	height: 48px;
+	padding: 4px 0px;
+	width: 165px;
+	color: #cf1e4c;
+	font-weight: 700;
+	text-align: left;
+	z-index: 1000;
+}
+.restaurnt_image{
+	max-height: 301px;
+	/*object-fit: none;*/
+	/*object-position: 50% 89%;*/
+	object-fit: cover;
+	width: 100%;
+	z-index:-1;
+	/*border-radius: 17px;*/
+	border-radius: 8px;
+}
+.restaurnt_image_shadow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* box-shadow: inset 0 0 119px #0e1316;
+	    -moz-box-shadow: inset 0 0 119px #0e1316;
+	    -webkit-box-shadow: inset 0 0 119px #0e1316; */
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.image_overlay{
+	position: absolute;
+    left: 11px;
+    bottom: 0px;
+    /*border-radius: 17px;*/
+    /*border-radius: 25px;*/
+    border-radius: 8px;
+    max-height: 301px;
+    width: 97.50%;
+}
+.category_height{
+	height: 40px;
+}
+.category_img{
+	margin: 0 auto;
+	/*max-width: 42px;*/
+	max-width: 34px;
+}
+.slider_h6{
+	color: white;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+
+
+/*SEARCH BAR WORK*/
+.searchbar{
+	margin-left: 75px !important;
+}
+.searchbar_logo{
+	left: -50px;
+	top:-2px;
+}
+.searchbar_logo_img{
+	max-height: 60px;
+}
+.searchbar_icon{
+	color: #cf1e4c;position: absolute;right: 6px;font-size: 36px;
+}
+
+/*SEARCH BAR WORK*/
+
+
+
+
+@media only screen and (max-width: 640px){
+	.searchbar {
+	    /*padding-right: 52px !important;*/
+	        margin-left: 0px !important;
+	}
+	.searchbar_icon {
+	    right: 0px;
+	}
+	.searchbar_logo_img {
+	    max-height: 32px;
+	}
+	.searchbar_logo {
+	    left: 0px;
+	}
+	.logo {
+	    height: 47px;
+	}
+	.image_overlay{
+		position: absolute;
+		left: 11px;
+		bottom: 0px;
+		max-height: 128px;
+		width: 95%;
+	}
+	.header-bg {
+	    /*height: 90px;*/
+	}
+	.btn_search {
+    	height: 37px;
+		line-height: 39px;
+    	width: 153px;
+
+	}
+	.restaurnt_image{
+		/*max-height: 186px;*/
+		/*max-height: 154px;*/
+		max-height: 128px;
+	}
+	.input_search_button{
+		font-size: 12px !important;
+		padding-left: 25px !important;
+	}
+	.slick_images{
+		/*width: 60px;*/
+	}
+	.category_height{
+		height: 27px;
+	}
+	.restaurant_deals{
+		font-size: 16px;
+		right: 10px;
+		height: 33px;
+		width: 97px;
+		top: 17px;
+		text-align: center;
+ 	   	padding-left: 20px;
+	}
+	.restaurnt_title{
+		left: 25px;
+		font-size: 20px;
+		height: 29px;
+		text-align: left;
+	}
+	.category_img {
+	    height: 27px;
+	    vertical-align: middle;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	
+	.image_overlay{
+		position: absolute;
+		/* left: 11px;
+		width: 95.60%; */
+		left: 10px;
+    	width: 94.8%;
+	}
+}
